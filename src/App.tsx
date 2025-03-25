@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import './App.scss';
 import Time from './components/time/Time';
 import { IoIosArrowDropdownCircle } from 'react-icons/io';

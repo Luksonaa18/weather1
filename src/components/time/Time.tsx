@@ -5,7 +5,7 @@ interface TimeProps {
   isDaytime: boolean;
 }
 
-const Time: React.FC<TimeProps> = ({ isDaytime }) => {
+const Time: React.FC<TimeProps> = () => {
   const [time, setTime] = useState(new Date());
 
   useEffect(() => {
