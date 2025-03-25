@@ -1,0 +1,16 @@
+@media (min-width: 786px) {
+    .time-section {
+      display: flex;
+      flex-direction: row;
+      gap: 1.5rem;
+      z-index: 20;
+      align-items: end;
+      justify-content: space-between;
+    }
+    p{
+      font-size: 20px;
+    }
+    h2{
+      font-size: 50px;
+    }
+  }
